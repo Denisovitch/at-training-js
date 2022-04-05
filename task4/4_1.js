@@ -13,4 +13,4 @@ car.power = (horse = "empty") => {
   console.log(`engine power is: ${horse} hp`);
 };
 
-car.power(100);
+car.power(100);//for example engine power is: 100 hp

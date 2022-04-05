@@ -4,12 +4,10 @@ let arrOfFilms = [
   "Форрест Гамп",
   "Список Шиндлера",
   "Крестный отец ",
-  "Зелёная миля",
+  "Зелёная миля"
 ];
 
-arrOfFilms.forEach((element) => {
-  console.log(element);
-});
+arrOfFilms.forEach((element) => console.log(element));
 
 // for (const iterator of arrOfFilms) {
 //   console.log(iterator);

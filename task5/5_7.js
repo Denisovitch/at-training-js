@@ -5,7 +5,7 @@ console.log("🚀 initial array is", array);
 console.log("🚀 search number is", number);
 
 //для поиска только первого/единственного совпадения
-function foudOneCoince(array, number) {
+function matchSearch(array, number) {
   console.log(
     `Var1 - We found number ${number} in position ${array.findIndex(
       (item) => item == number
@@ -13,7 +13,7 @@ function foudOneCoince(array, number) {
   );
 }
 
-foudOneCoince(array, number);
+matchSearch(array, number);
 //поиск всех совпадений
 for (let index = 0; index < array.length; index++) {
   let element;

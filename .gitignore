@@ -1,0 +1,6 @@
+test.js
+testd.js
+index.html
+**/node_modules
+package*.*
+*.code-workspace

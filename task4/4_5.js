@@ -14,3 +14,13 @@ function isPrime(n) {
 }
 //console.log(isPrime(3)) //must be true
 //console.log(isPrime(4)) //must be false
+
+// let arrForPrimeCheck = [1,5,7,3,5,11,34,12,37,95,91, 101]
+
+// for(let i = 0; i < arrForPrimeCheck.length; i++){
+//   if(isPrime(arrForPrimeCheck[i])){
+//     console.log(arrForPrimeCheck[i] + " is prime")
+//   } else {
+//     console.log(arrForPrimeCheck[i] + " is not prime")
+//   }
+// }

@@ -3,4 +3,4 @@ function sumApplesPears(apples, pears) {
   return apples + pears;
 }
 //console.log(sumApplesPears(4,6));
-//varB let sumOfFruit = (apples, pears) => apples + pears;
+//varB let sumOfFruits = (apples, pears) => apples + pears;

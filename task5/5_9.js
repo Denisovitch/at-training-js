@@ -1,5 +1,5 @@
 //9. Реализовать цикл, который выводит в консоль простые числа
-let endOfNumberRange = 100;
+let endOfNumberRange = 101; //число, до которого будем выводить простые числа
 
 function isPrime(n) {
   // если n > 1
@@ -15,6 +15,6 @@ function isPrime(n) {
   else return false;
 }
 
-for (let i = 2; i <= 100; i++) {
+for (let i = 2; i <= endOfNumberRange; i++) {
   if (isPrime(i)) console.log(`This number ${i} - is prime`);
 }

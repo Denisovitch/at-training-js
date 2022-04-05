@@ -5,4 +5,4 @@ let newHelloArrayOfNames = [];
 
 newHelloArrayOfNames = arrOfNames.map((item) => addWord + " " + item);
 console.log("🚀 initial array is", arrOfNames);
-console.log("🚀 array whis add 'hello' word is", newHelloArrayOfNames);
+console.log("🚀 array with add 'hello' word is", newHelloArrayOfNames);
